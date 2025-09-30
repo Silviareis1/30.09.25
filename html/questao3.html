@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Validação de Formulário</title>
+</head>
+<body>
+    <header>
+        <h2>Formulário de Cadastro</h2>
+    </header>
+    
+    <main>
+            <form id="formulario">
+        <label>Nome: <input type="text" id="nome" /></label><br><br>
+        <label>Idade: <input type="number" id="idade" /></label><br><br>
+        <label>Salário: <input type="number" id="salario" step="0.01" /></label><br><br>
+        
+        <label>Sexo:</label>
+        <select id="sexo">
+            <option value="">Selecione</option>
+            <option value="f">Feminino</option>
+            <option value="m">Masculino</option>
+        </select><br><br>
+
+        <label>Estado Civil:</label>
+        <select id="estadoCivil">
+            <option value="">Selecione</option>
+            <option value="s">Solteiro(a)</option>
+            <option value="c">Casado(a)</option>
+            <option value="v">Viúvo(a)</option>
+            <option value="d">Divorciado(a)</option>
+        </select><br><br>
+
+        <button type="button" onclick="validarFormulario()">Enviar</button>
+    </form>
+
+    <p id="mensagem" style="color: red;"></p>
+
+  
+    </main>
+
+  <script src="/js/exercicio3.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+ header {
+         background-color: #90ee90; /* verde claro */
+         padding: 20px;
+         text-align: center;
+      }
+      main {
+         background-color: #3cb371; /* verde médio */
+         padding: 40px;
+         min-height: 300px;
+         text-align: center;
+      }
+      .verificarMaior {
+         margin: 30px auto;
+         padding: 20px;
+         max-width: 400px;
+         background: #f0fff0;
+         border-radius: 8px;
+         box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+         display: flex;
+         flex-direction: column;
+         gap: 12px;
+      }
+      .verificarMaior label {
+         font-weight: bold;
+         margin-bottom: 4px;
+      }
+      .verificarMaior input[type="number"],
+      .verificarMaior input[type="text"] {
+         padding: 8px;
+         border: 1px solid #90ee90;
+         border-radius: 4px;
+         margin-bottom: 8px;
+      }
+      .verificarMaior button {
+         background: #90ee90;
+         border: none;
+         padding: 10px;
+         border-radius: 4px;
+         font-weight: bold;
+         cursor: pointer;
+         transition: background 0.2s;
+      }
+      .verificarMaior button:hover {
+         background: #66cc66;
+      }
+    
+      
+      footer {
+         background-color: #006400; /* verde escuro */
+         color: #fff;
+         padding: 15px;
+         text-align: center;
+      }
